@@ -1,0 +1,12 @@
+- Aquest projecte tindrà una pàgina inicial amb un botó per registrar-se i un altre logejar-se, el botó de registrar-se estarà al mig de la pàgina i el de loguejar-se estarà en un nav al cantó dret, ja que a l'esquerra hi haurà el nom de la app.
+- En la vista de registrar-se aprareixerà un form amb els camps de: nom, correu i contrasenya, també hi haurà un link que et porti al login.
+- En el de login hi haura un form amb els camps de: correu i contrasenya, a part del link que et porti a la vista del register.
+- Els usuaris es guardaran com a array amb els camps de: nom, correu, contrasenya, createdAt i un array de tasques.
+- Un cop et loguejes veuràs la vista principal de la app, aquesta vista tindrà un nav amb el nom de la app a l'esquerra, un botó per afegir una nova tasca i el nom d'usuari que si el cliques et sortirà un desplegable per fer logOut.
+- També en la vista principal sortiràn les tasques en forma de quadrícula on apereixerà només el títol.
+- Les tasques estaràn formades per: un títol, una descripció i la data de creació.
+- Si cliques sobre una tasca t'obrirà una vista amb un form on hi haurà el títol i la descripció de la tasca seleccionada, està en un form per si es vol editar, abaix a la dreta hi haurà un botó per desar els canvis i al costat un per eliminar la tasca.
+- Hi haurà un rol de admin que la diferència que tindrà amb els usuaris normals és de que ell podrà eliminar els usuaris que vulgui amb un botó que hi haurà al nav que només veurà ell.
+- En la vista de l'admin on sortiràn els usuaris estaràn en una taula amb el nom, correu, contrasenya, el numero de tasques que té cadascu i un botó per eliminar-lo.
+
+- Cada usuari tindrà 2 arrays, un amb tasques en curs i un altre per tasques que ja s'han complert.
